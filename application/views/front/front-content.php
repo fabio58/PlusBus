@@ -14,7 +14,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script type="text/javascript" src="<?php echo base_url() ?>public/layout/scripts/jquery.jcarousel.pack.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>public/layout/scripts/jquery.jcarousel.setup.js"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>public/js/bootstrap.min.js"></script>
-
+<link href="https://fonts.googleapis.com/css?family=Molengo" rel="stylesheet"/> 
+<link href="https://fonts.googleapis.com/css?family=Molengo|Nothing+You+Could+Do" rel="stylesheet"/> 
+<style type="text/css">
+   #breadcrumb li a{
+        background-color: transparent !important;
+        color:#fff;
+    }
+    #topnav ul li a{
+        font-family: 'Molengo', sans-serif;
+        font-size: 15px;
+    }
+    .contacto p{
+             font-family: 'Molengo', sans-serif;
+    }
+</style>
 </head>
 <body id="top">
 <!-- ####################################################################################################### -->
@@ -27,8 +41,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div id="topnav">
       <ul>
           <li class="active"><a href="<?php echo base_url() ?>">Home</a></li>
-          <li><a href="<?php echo base_url('paginas-web') ?>">Sitis Web</a></li>
-        <li><a href="pages/full-width.html">Full Width</a></li>
+          <li><a href="<?php echo base_url('paginas-web') ?>">Sitios Web</a></li>
+        <li><a href="#">Software</a>
+         <ul>
+            <li><a href="<?php echo base_url('software/facturacion')?>">Sistemas de Facturacion</a></li>
+            <li><a href="#">Sistemas de Stock</a></li>
+            <li><a href="#">Dispositivos Moviles</a></li>
+          </ul>
+        </li>
+       
         <li><a href="#">DropDown</a>
           <ul>
             <li><a href="#">Link 1</a></li>
@@ -38,62 +59,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </li>
         <li class="last"><a href="#">A Long Link Text</a></li>
       </ul>
+        <div class="contacto" style="text-align: right"> 
+            <p>
+            Email: info@plusmedia.com.py <br/>
+            Cel: <img style="float: right" src="public/images/wassapp.png" width="25px" alt="" /> 0984 648 733<br/>
+            Tel: 021 3388655
+            </p>
+        </div>
     </div>
+      
     <br class="clear" />
   </div>
 </div>
 <!-- ####################################################################################################### -->
 <div class="wrapper col2">
-  <div id="featured_slide">
-    <div id="featured_content">
-      <ul>
-        <li><img src="<?php echo base_url() ?>public/images/sitios-web.jpg" alt="" />
-          <div class="floater">
-            <h2>Desarrollo de Sitios Web</h2>
-            <p>Siéntase parte de este listado de clientes y amigos. Nuestros Clientes  <a href="http://www.os-templates.com/">Clientes y Amigos</a></p> 
-                
-            <p class="readmore"><a href="#">Con Quienes Trabajamos &raquo;</a></p>
-            
-          </div>
-        </li>
+  <div id="breadcrumb">
+      <?php  echo $this->breadcrumbs->show(); ?>
 
-             <li><img src="<?php echo base_url() ?>public/images/software2.jpg" alt="" />
-          <div class="floater">
-            <h2>Desarrollo de Software a Medida</h2>
-            <p>Realizamos Software a medida y de Gestión como Facturación, Stock, Control de asistencia, etc. </p>
-            <p class="readmore"><a href="#">Continúa leyendo sobre Software &raquo;</a></p>
-          </div>
-        </li>
-   
-      </ul>
-    </div>
-    <a href="javascript:void(0);" id="featured-item-prev"><img src="<?php echo base_url() ?>public/layout/images/prev.png" alt="" /></a> <a href="javascript:void(0);" id="featured-item-next"><img src="<?php echo base_url() ?>public/layout/images/next.png" alt="" /></a> </div>
-</div>
-<!-- ####################################################################################################### -->
-<div class="wrapper col3">
-  <div id="container">
-    <div class="homepage">
-      <ul>
-        <li>
-          <h2><img src="<?php echo base_url() ?>public/images/demo/60x60.gif" alt="" />Nullamlacus dui ipsum conseque loborttis</h2>
-          <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat. Adipisciniapellentum leo ut consequam ris felit elit id nibh sociis malesuada.</p>
-          <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
-        </li>
-        <li>
-          <h2><img src="<?php echo base_url() ?>public/images/demo/60x60.gif" alt="" />Nullamlacus dui ipsum conseque loborttis</h2>
-          <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat. Adipisciniapellentum leo ut consequam ris felit elit id nibh sociis malesuada.</p>
-          <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
-        </li>
-        <li class="last">
-          <h2><img src="<?php echo base_url() ?>public/images/demo/60x60.gif" alt="" />Nullamlacus dui ipsum conseque loborttis</h2>
-          <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat. Adipisciniapellentum leo ut consequam ris felit elit id nibh sociis malesuada.</p>
-          <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
-        </li>
-      </ul>
-      <br class="clear" />
-    </div>
   </div>
 </div>
+<!-- ####################################################################################################### -->
+<?php $this->load->view($content) ?>
 <!-- ####################################################################################################### -->
 <div class="wrapper col4">
   <div id="footer">
