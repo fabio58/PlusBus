@@ -16,7 +16,7 @@ class Software extends CI_Controller {
        $data = array(
             'title' => 'My Blog Title',
             'heading' => 'My Blog Heading',
-           'content' => 'front/software'
+           'content' => 'software/facturacion'
         );
         $this->load->view('front/front-content', $data);
     }
