@@ -17,7 +17,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <script type="text/javascript" src="<?php echo base_url() ?>public/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="<?php echo base_url() ?>public/js/bootstrap-dropdown.js"></script>
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
-        <style type="text/css">
+       <style type="text/css">
+            #breadcrumb li a{
+                background-color: transparent !important;
+                color:#fff;
+            }
+            #topnav ul li a{
+                font-family: 'Molengo', sans-serif;
+                font-size: 15px;
+            }
+            .contacto p{
+                font-family: 'Molengo', sans-serif;
+            }
+            h1,h2,h3{
+                font-family: 'Molengo', sans-serif !important;
+            }
             .nav {
                 font-size: 16px;
                 height: 54px;
@@ -31,42 +45,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 font-family: 'Molengo', sans-serif !important;
                 border: 1px #b2c629 dashed !important;
                 background-color: #B2C629 !important;
-
+                color: #fff!important;
             }
         </style>
     </head>
     <body id="top">
         <!-- ####################################################################################################### -->
 
-        <div class="row">
+             <div class="row">
             <div class="col-md-2">
                 <a style="float: right;" href="http://www.plusmedia.com.py"><img src="<?php echo base_url() ?>public/images/logoPlus.png" width="100px"/></a>
 
             </div>
-            <div class="col-md-10">
-                <ul class="nav nav-tabs"  role="tablist">
-                    <li class="<?= (current_url() == base_url()) ? 'active' : '' ?>">
-                        <a href="<?php echo base_url() ?>"> Home</a>
-                    </li>
-                    <li class="<?= (current_url() == base_url('paginas-web')) ? 'active' : '' ?>"><a href="<?php echo base_url('paginas-web') ?>"><span style="font-size: 12px" class="glyphicon glyphicon-globe"></span> Sitios Web</a></li>
-                   <li class="<?= (current_url() == base_url('software')) ? 'active' : '' ?>"><a href="<?php echo base_url('software') ?>"><span style="font-size: 12px" class=" glyphicon glyphicon-wrench"></span> Software</a></li>
-                    <li class="dropdown" id="menu1">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1">
-                           <span style="font-size: 12px" class="glyphicon glyphicon-globe"></span> Paginas Web
-                            <b class="caret"></b>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li class="<?= (current_url() == base_url('paginas-web')) ? 'active' : '' ?>"><a href="<?php echo base_url('paginas-web') ?>">Pasarela de pagos</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                        </ul>
-                    </li>
-                </ul>
-
-            </div>
+                        <?php $this->load->view('front/menu'); ?>
         </div>
+
 
         <!-- ####################################################################################################### -->
         <div class="wrapper col2">

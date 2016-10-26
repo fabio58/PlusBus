@@ -5,7 +5,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>PlusBusiness</title>
+        <title><?php echo $title; ?></title>
+        <meta name="description" content="<?php echo $descri ?>"/>
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
         <link rel="stylesheet" href="<?php echo base_url() ?>public/layout/styles/layout.css" type="text/css" />
         <link rel="stylesheet" href="<?php echo base_url() ?>public/css/bootstrap.min.css" type="text/css" />
@@ -56,29 +57,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <a style="float: right;" href="http://www.plusmedia.com.py"><img src="<?php echo base_url() ?>public/images/logoPlus.png" width="100px"/></a>
 
             </div>
-            <div class="col-md-10" style="z-index: 2">
-                <ul class="nav nav-tabs"  role="tablist">
-                    <li class="<?= (current_url() == base_url()) ? 'active' : '' ?>">
-                        <a href="<?php echo base_url() ?>"><span style="font-size: 12px" class=" glyphicon glyphicon-list"></span> Home</a>
-                    </li>
-                    <li class="<?= (current_url() == base_url('paginas-web')) ? 'active' : '' ?>"><a href="<?php echo base_url('paginas-web') ?>"><span style="font-size: 12px" class="glyphicon glyphicon-globe"></span> Sitios Web</a></li>
-                    <li class="<?= (current_url() == base_url('software')) ? 'active' : '' ?>"><a href="<?php echo base_url('software') ?>"><span style="font-size: 12px" class=" glyphicon glyphicon-wrench"></span> Software</a></li>
-                    <li class="dropdown" id="menu1">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1">
-                            <span style="font-size: 12px" class="glyphicon glyphicon-globe"></span> Paginas Web
-                            <b class="caret"></b>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li class="<?= (current_url() == base_url('paginas-web')) ? 'active' : '' ?>"><a href="<?php echo base_url('paginas-web') ?>">Desarrollo de Paginas Web</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                        </ul>
-                    </li>
-                </ul>
-
-            </div>
+                        <?php $this->load->view('front/menu'); ?>
         </div>
 
 
