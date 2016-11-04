@@ -62,7 +62,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
         <!-- ####################################################################################################### -->
-        <div class="wrapper col2">
+      <div class="wrapper col2" style="z-index: 1">
+       
             <div id="featured_slide">
                 <div id="featured_content">
                     <ul>
@@ -71,7 +72,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <h2>Desarrollo de Sitios Web</h2>
                                 <p>Siéntase parte de este listado de clientes y amigos. Nuestros Clientes  <a href="http://www.os-templates.com/">Clientes y Amigos</a></p> 
 
-                                <p class="readmore"><a href="#">Con Quienes Trabajamos &raquo;</a></p>
+                                <p class="readmore"><a href="<?php echo base_url('paginas-web/clientes') ?>">Con Quienes Trabajamos &raquo;</a></p>
 
                             </div>
                         </li>
@@ -80,7 +81,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="floater">
                                 <h2>Desarrollo de Software a Medida</h2>
                                 <p>Realizamos Software a medida y de Gestión como Facturación, Stock, Control de asistencia, etc. </p>
-                                <p class="readmore"><a href="#">Continúa leyendo sobre Software &raquo;</a></p>
+                                <p class="readmore"><a href="<?php echo base_url('software') ?>">Continúa leyendo sobre Software &raquo;</a></p>
                             </div>
                         </li>
 
@@ -92,23 +93,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="wrapper col3">
             <div id="container">
                 <div class="homepage">
-                    <ul>
-                        <li>
-                            <h2><img src="<?php echo base_url() ?>public/images/demo/60x60.gif" alt="" />Nullamlacus dui ipsum conseque loborttis</h2>
-                            <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat. Adipisciniapellentum leo ut consequam ris felit elit id nibh sociis malesuada.</p>
-                            <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
-                        </li>
-                        <li>
-                            <h2><img src="<?php echo base_url() ?>public/images/demo/60x60.gif" alt="" />Nullamlacus dui ipsum conseque loborttis</h2>
-                            <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat. Adipisciniapellentum leo ut consequam ris felit elit id nibh sociis malesuada.</p>
-                            <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
-                        </li>
-                        <li class="last">
-                            <h2><img src="<?php echo base_url() ?>public/images/demo/60x60.gif" alt="" />Nullamlacus dui ipsum conseque loborttis</h2>
-                            <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat. Adipisciniapellentum leo ut consequam ris felit elit id nibh sociis malesuada.</p>
-                            <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
-                        </li>
-                    </ul>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/M9QfbkAX3ic?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                     <br class="clear" />
                 </div>
             </div>
@@ -138,11 +123,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </ul>
                 </div>
                 <div class="box flickrbox">
-                    <h2>Latest Flickr Images !</h2>
+                    <h2>Nuestros Clientes</h2>
                     <div class="wrap">
                         <div class="fix"></div>
-                        <div class="flickr_badge_image" id="flickr_badge_image1"><a href="#"><img src="<?php echo base_url() ?>public/images/demo/80x80.gif" alt="" /></a></div>
-                        <div class="flickr_badge_image" id="flickr_badge_image2"><a href="#"><img src="<?php echo base_url() ?>public/images/demo/80x80.gif" alt="" /></a></div>
+                        <div class="flickr_badge_image" id="flickr_badge_image1"><a href="#"><img src="<?php echo base_url() ?>public/img/endoterapia.jpg" alt="" /></a></div>
+                        <div class="flickr_badge_image" id="flickr_badge_image2"><a href="#"><img src="<?php echo base_url() ?>public/img/consultora.jpg" alt="" /></a></div>
                         <div class="flickr_badge_image" id="flickr_badge_image3"><a href="#"><img src="<?php echo base_url() ?>public/images/demo/80x80.gif" alt="" /></a></div>
                         <div class="flickr_badge_image" id="flickr_badge_image4"><a href="#"><img src="<?php echo base_url() ?>public/images/demo/80x80.gif" alt="" /></a></div>
                         <div class="flickr_badge_image" id="flickr_badge_image5"><a href="#"><img src="<?php echo base_url() ?>public/images/demo/80x80.gif" alt="" /></a></div>
