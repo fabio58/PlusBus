@@ -55,4 +55,5 @@ $route['translate_uri_dashes'] = FALSE;
 $route['paginas-web'] = 'paginas_web';
 $route['paginas-web/pagos-online'] = 'paginas_web/pagos_online';
 $route['paginas-web/clientes-amigos'] = 'paginas_web/clientes_amigos';
+$route['paginas-web/webmaster-online'] = 'paginas_web/webmaster_online';
 

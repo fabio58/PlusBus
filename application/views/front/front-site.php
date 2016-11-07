@@ -93,7 +93,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="wrapper col3">
             <div id="container">
                 <div class="homepage">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/M9QfbkAX3ic?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+                    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/M9QfbkAX3ic?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></center>
                     <br class="clear" />
                 </div>
             </div>
@@ -102,7 +102,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="wrapper col4">
             <div id="footer">
                 <div class="box1">
-                    <h2>A Little Company Information !</h2>
+                    <h2>Acerca de nosotros</h2>
                     <img class="imgl" src="<?php echo base_url() ?>public/images/logoPlus.png" alt="" />
 
                     <p style="text-align: justify">Desde el año 2011 Plusmedia se encuentra trabajando para usted, nos encanta trabajar con sitios Web y software, nos dedicamos a dar soluciones a los problemas informáticos </p>
@@ -128,10 +128,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="fix"></div>
                         <div class="flickr_badge_image" id="flickr_badge_image1"><a href="#"><img src="<?php echo base_url() ?>public/img/endoterapia.jpg" alt="" /></a></div>
                         <div class="flickr_badge_image" id="flickr_badge_image2"><a href="#"><img src="<?php echo base_url() ?>public/img/consultora.jpg" alt="" /></a></div>
-                        <div class="flickr_badge_image" id="flickr_badge_image3"><a href="#"><img src="<?php echo base_url() ?>public/images/demo/80x80.gif" alt="" /></a></div>
-                        <div class="flickr_badge_image" id="flickr_badge_image4"><a href="#"><img src="<?php echo base_url() ?>public/images/demo/80x80.gif" alt="" /></a></div>
-                        <div class="flickr_badge_image" id="flickr_badge_image5"><a href="#"><img src="<?php echo base_url() ?>public/images/demo/80x80.gif" alt="" /></a></div>
-                        <div class="flickr_badge_image" id="flickr_badge_image6"><a href="#"><img src="<?php echo base_url() ?>public/images/demo/80x80.gif" alt="" /></a></div>
+                        <div class="flickr_badge_image" id="flickr_badge_image3"><a href="#"><img src="<?php echo base_url() ?>public/img/setepar.jpg" alt="" /></a></div>
+                        <div class="flickr_badge_image" id="flickr_badge_image4"><a href="#"><img src="<?php echo base_url() ?>public/img/cess.jpg" alt="" /></a></div>
+                        <div class="flickr_badge_image" id="flickr_badge_image5"><a href="#"><img src="<?php echo base_url() ?>public/img/uass.jpg" alt="" /></a></div>
+                        <div class="flickr_badge_image" id="flickr_badge_image6"><a href="#"><img src="<?php echo base_url() ?>public/img/cedin.jpg" alt="" /></a></div>
                         <div class="fix"></div>
                     </div>
                 </div>

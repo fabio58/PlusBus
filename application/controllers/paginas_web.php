@@ -52,6 +52,19 @@ class Paginas_web extends CI_Controller {
         );
         $this->load->view('front/front-content', $data);
     }
+    public function webmaster_online() {
+       $this->load->library('breadcrumbs');
+       $this->breadcrumbs->push('Home', '/');
+       $this->breadcrumbs->push('Paginas web', '/paginas-web');
+       $this->breadcrumbs->push('Pagos Online', '/pagos-online');
+     
+       $data = array(
+            'title' => 'Webmaster Onlie',
+            'descri' => 'Webmaster Online',
+           'content' => 'paginasweb/webmasteronline'
+        );
+        $this->load->view('front/front-content', $data);
+    }
 
     
 
