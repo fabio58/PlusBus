@@ -18,6 +18,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <script type="text/javascript" src="<?php echo base_url() ?>public/js/bootstrap-dropdown.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Molengo" rel="stylesheet"/> 
         <link href="https://fonts.googleapis.com/css?family=Molengo|Nothing+You+Could+Do" rel="stylesheet"/> 
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
         <style type="text/css">
             #breadcrumb li a{
                 background-color: transparent !important;
@@ -80,5 +81,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <br class="clear" />
             </div>
         </div>
+    
     </body>
 </html>
