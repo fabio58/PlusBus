@@ -13,7 +13,7 @@
                             <li class="<?= (current_url() == base_url('paginas-web/pagos-online')) ? 'active' : '' ?>"><a href="<?php echo base_url('paginas-web/pagos-online') ?>">Pagos Online</a></li>
                         </ul>
                     </li>
-                    <li class="<?= (current_url() == base_url('paginas-web/hosting')) ? 'active' : '' ?>"><a href="<?php echo base_url('paginas-web/hosting') ?>"> <span style="font-size: 12px" class="glyphicon glyphicon-cloud-upload"></span> Hosting (Alojamiento)</a></li>
+                    <!--<li class="<?= (current_url() == base_url('paginas-web/hosting')) ? 'active' : '' ?>"><a href="<?php echo base_url('paginas-web/hosting') ?>"> <span style="font-size: 12px" class="glyphicon glyphicon-cloud-upload"></span> Hosting (Alojamiento)</a></li>-->
                     <li class="<?= (current_url() == base_url('paginas-web/webmaster-online')) ? 'active' : '' ?>"><a href="<?php echo base_url('paginas-web/webmaster-online') ?>">  <span style="font-size: 12px" class="glyphicon glyphicon-calendar"></span> Webmaster Online</a></li>
                     <li class="<?= (current_url() == base_url('software')) ? 'active' : '' ?>"><a href="<?php echo base_url('software') ?>"><span style="font-size: 12px" class=" glyphicon glyphicon-wrench"></span> Software</a></li>
                     <li class="<?= (current_url() == base_url('contactos')) ? 'active' : '' ?>"><a href="<?php echo base_url('contactos') ?>"><span style="font-size: 12px" class=" glyphicon glyphicon-pencil"></span> Contacto</a></li>

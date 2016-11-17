@@ -7,6 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <head>
         <title>Plusmedia</title>
         <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <link rel="shortcut icon" type="image/png" href="public/images/logoPlus.png"/>
         <link rel="stylesheet" href="<?php echo base_url() ?>public/layout/styles/layout.css" type="text/css" />
         <link rel="stylesheet" href="<?php echo base_url() ?>public/css/bootstrap.min.css" type="text/css" />
         <link rel="stylesheet" href="<?php echo base_url() ?>public/css/bootstrap-theme.min.css" type="text/css" />
