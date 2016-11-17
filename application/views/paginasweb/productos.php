@@ -44,7 +44,7 @@
                     <a href="#" class="list-group-item"><span class="glyphicon glyphicon-wrench"></span> Carga galerías de images (3 álbunes o galerías – 3 fotos por galería). </a>
                     <a href="#" class="list-group-item"><span class="glyphicon glyphicon-wrench"></span> Hosting 1GB, primer año gratis</a>
                 </div>
-                <button class="btn btn-success"> <i class="icon-hand-right icon-white"></i>  Solicite Presupuesto</button>
+<!--                <button class="btn btn-success"> <i class="icon-hand-right icon-white"></i>  Solicite Presupuesto</button>-->
 
             </div>
         </div>
@@ -63,7 +63,7 @@
                      <a href="#" class="list-group-item"><span class="glyphicon glyphicon-wrench"></span> Catálogo de productos  10 productos </a>
                      <a href="#" class="list-group-item"><span class="glyphicon glyphicon-wrench"></span> Hosting 2GB, primer año gratis </a>
                 </div>
-                <button class="btn btn-success"> <i class="icon-hand-right icon-white"></i>  Solicite Presupuesto</button>
+<!--                <button class="btn btn-success"> <i class="icon-hand-right icon-white"></i>  Solicite Presupuesto</button>-->
             </div>
             <div class="col-md-6">
 
@@ -80,7 +80,7 @@
                      <a href="#" class="list-group-item"><span class="glyphicon glyphicon-wrench"></span> Catálogo de productos  (ilimimitada) </a>
                      <a href="#" class="list-group-item"><span class="glyphicon glyphicon-wrench"></span> Hosting 5GB, primer año gratis </a>
                 </div>
-                <button class="btn btn-success"> <i class="icon-hand-right icon-white"></i> Solicite Presupuesto</button>
+                <!--<button class="btn btn-success"> <i class="icon-hand-right icon-white"></i> Solicite Presupuesto</button>-->
 
 
             </div>

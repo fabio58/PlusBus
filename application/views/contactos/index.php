@@ -10,7 +10,7 @@
                  <ul style="display: block">
                         <li>Fernando de la Mora - Zona Sur</li>
                         <li>Capitán Montiel esq/ Mcal. Estigarribia - 1er Piso oficina 2B</li>
-                        <li>Tel: 0201 3388655</li>
+                        <li>Tel: 021 3388655-</li>
                         <li>Cel: 0984 64 87 33</li>
                         <li>Email: info@plusmedia.com.py</li>
                         <li><a href="https://www.facebook.com/pages/Plus-Media/101930326597283"><i class="fa fa-facebook"></i></a></li>
@@ -19,7 +19,7 @@
                         <li><a href="https://plus.google.com/b/103952230276043689780/+PlusmediaPy"><i class="fa fa-google-plus"></i> </a></li>
                     </ul>
                  <h1>Formulario de contacto</h1>
-                 <form role="form">
+                 <form role="form" method="POST" action="<?php echo base_url("contactos/enviar")  ?>">
                  <div class="form-group">
                  <label>Nombre</label>
                  <input type="text" name="nombre" class="form-control" >  
@@ -29,11 +29,15 @@
                  <input type="text" name="telefono" class="form-control">  
                  </div>
                  <div class="form-group">
+                 <label>email</label>
+                 <input type="text" name="email" class="form-control">  
+                 </div>
+                 <div class="form-group">
                  <label>Mensaje</label>
                  <textarea name="mensaje" class="form-control"></textarea>
                  </div>
                  <div class="form-group">
-                     <a class="btn btn-success" style="color: #fff">Enviar</a>
+                     <button class="btn btn-success" style="color: #fff">Enviar</button>
                      
                  </div>
                  
