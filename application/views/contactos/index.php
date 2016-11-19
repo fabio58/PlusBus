@@ -1,6 +1,12 @@
 <div class="wrapper col3">
     <div id="container">
                  <h1 style="text-align: center"> Contacte con nosotros</h1>
+                 <?php if ($this->session->flashdata('success')) { ?>
+        <div class="alert alert-success"> <?= $this->session->flashdata('success') ?> </div>
+    <?php } ?>
+                 <?php if ($this->session->flashdata('error')) { ?>
+        <div class="alert alert-danger"> <?= $this->session->flashdata('erroor') ?> </div>
+    <?php } ?>
          <div class="row">
              <div class="col-md-6" id="map_canvas">
             <p>....Cargando....</p> 
@@ -37,6 +43,8 @@
                  <textarea name="mensaje" class="form-control"></textarea>
                  </div>
                  <div class="form-group">
+                     <input type="hidden" name="last">  
+               
                      <button class="btn btn-success" style="color: #fff">Enviar</button>
                      
                  </div>
@@ -99,3 +107,4 @@ function initialize() {
 //Mapa.getScript("https://maps.googleapis.com/maps/api/js?sensor=false&callback=initialize");
 $.getScript("http://maps.google.com/maps/api/js?key=AIzaSyCUvRWTExPbED3AQ-S_ITny8w2wecey61M&libraries=places&sensor=false&callback=initialize");
 </script>		
+

@@ -67,7 +67,7 @@
             </div>
             <div class="col-md-6">
 
-                <h3 style="color: #008200" ><span  class="glyphicon glyphicon-ok"></span> Diseño web Intermedio</h3>
+                <h3 style="color: #008200" ><span  class="glyphicon glyphicon-ok"></span> Diseño web Empresarial</h3>
               <div class="list-group">
                      <a href="#" class="list-group-item"><span class="glyphicon glyphicon-wrench"></span> Paginas Principales (ilimimitada) </a>
                      <a href="#" class="list-group-item"><span class="glyphicon glyphicon-wrench"></span> secciones (Sub menu) (ilimimitada) </a>

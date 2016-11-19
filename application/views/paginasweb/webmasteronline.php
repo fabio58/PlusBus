@@ -9,14 +9,14 @@
                     <a href="#" class="list-group-item"><span class="glyphicon glyphicon-wrench"></span> El servicio consiste en un bakup semanal de la base datos y archivos</a>
                     <a href="#" class="list-group-item"><span class="glyphicon glyphicon-wrench"></span> Actualizaciones del sitio</a>
                     <a href="#" class="list-group-item"><span class="glyphicon glyphicon-wrench"></span> Verificaciones diarias del Sitio web</a>
-                    <a href="#" class="list-group-item"><span class="glyphicon glyphicon-wrench"></span> Actualizaciones del sitio</a>
                     <a href="#" class="list-group-item"><span class="glyphicon glyphicon-wrench"></span> Problemas de correos. </a>
                     <a href="#" class="list-group-item"><span class="glyphicon glyphicon-wrench"></span> Actualizaciones de banners </a>
                     <a href="#" class="list-group-item"><span class="glyphicon glyphicon-wrench"></span> Actualizaciones de Slider </a>
                     <a href="#" class="list-group-item"><span class="glyphicon glyphicon-wrench"></span> Estadísticas de Visitas Google Analitics  </a>
-
+                    <a href="#" class="list-group-item"><span class="glyphicon glyphicon-wrench"></span> Migraciones de bases de datos  </a>
+                        <a href="#" class="list-group-item"><span class="glyphicon glyphicon-wrench"></span> Migraciones de Correos electronicos  </a>
                 </div>
-	
+                <a style="color: #fff " class="btn btn-success" href="<?php echo base_url('contactos'); ?>"> <i class="icon-hand-right icon-white"></i> Solicite Presupuesto</a>
 
     </div>   <!--container fin-->
 
